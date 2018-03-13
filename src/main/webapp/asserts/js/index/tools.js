@@ -24,8 +24,7 @@ var tools = {
 			});
 			//地形服务
 			var terrainProvider = Cesium.createWorldTerrain({
-			    requestWaterMask: true,
-			    proxy : new Cesium.DefaultProxy('/proxy/')
+			    requestWaterMask: true
 			});
 			tools.viewer.terrainProvider = terrainProvider;
 			//底层影像服务
